@@ -3,12 +3,12 @@ html {
 }
 
 .clock-face {
-  height:300px;
+  height: 300px;
   margin: 50px auto;
   position: relative;
   width: 300px;
 
-  background: transparent url("../images/clock-face.svg") no-repear center center;
+  background: transparent url("../images/clock-face.svg") no-repeat center center;
 }
 
 .clock-center {
@@ -26,6 +26,7 @@ html {
 
   transform-origin: 50% calc(100% - 8px);
 }
+
 .hand-minute {
   animation: hand-rotate .5s linear infinite;
 }
@@ -34,14 +35,14 @@ html {
   animation: hand-rotate 6s linear infinite;
 }
 
-@@keyframes hand-rotate {
+@keyframes hand-rotate {
 
-0% {
-  transform: rotate(0deg);
-}
+  0% {
+    transform: rotate(0deg);
+  }
 
-100% {
-  transform: rotate(360deg);
-}
+  100% {
+    transform: rotate(360deg);
+  }
 
 }
